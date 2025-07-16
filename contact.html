@@ -75,9 +75,15 @@
     <section class="container my-5 fade-in">
         <div class="row">
             <div class="col-md-8 mx-auto">
-                <p>現在、お問い合わせフォームは準備中です。ご不便をおかけしますが、今しばらくお待ちください。</p>
-                <p>ご質問やご意見は、以下のメールアドレスまでお送りください。</p>
-                <p>メールアドレス: <a href="mailto:info@information-nutrition.com">info@information-nutrition.com</a></p>
+                <!-- お知らせ -->
+                <div class="alert alert-warning mb-4">
+                    <h5><i class="bi bi-exclamation-triangle"></i> お知らせ</h5>
+                    <p class="mb-2">これは架空の学問サイトのため、実際の問い合わせは受け付けておりません。</p>
+                    <p class="mb-0">このプロジェクトに関するお問い合わせは、<a href="https://github.com/creating-cat/ai-heartbeat" class="alert-link">AI心臓システムのGitHubリポジトリ</a>までお願いします。</p>
+                </div>
+                
+                <p>以下の内容は、サイトのデモンストレーション用として表示されています。</p>
+                <p>メールアドレス: <span class="text-decoration-line-through text-muted">info@information-nutrition.com</span> <small class="text-muted">（無効）</small></p>
 
                 <h2 class="mt-5">情報栄養学に関するよくある質問</h2>
                 <p>情報栄養学について、特に多く寄せられる質問とその回答をまとめました。</p>
@@ -96,22 +102,25 @@
                     <li><strong>ウェブサイトの不具合報告</strong>: ウェブサイトの表示崩れやリンク切れなど、お気づきの点がございましたら、詳細を添えてご連絡いただけると幸いです。</li>
                 </ul>
 
-                <h2 class="mt-5">お問い合わせフォーム</h2>
-                <form name="contact" method="POST" data-netlify="true">
-                    <div class="mb-3">
-                        <label for="name" class="form-label">お名前:</label>
-                        <input type="text" class="form-control" id="name" name="name" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="email" class="form-label">メールアドレス:</label>
-                        <input type="email" class="form-control" id="email" name="email" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="message" class="form-label">メッセージ:</label>
-                        <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">送信</button>
-                </form>
+                <h2 class="mt-5">お問い合わせフォーム <small class="text-muted">（デモ用・無効）</small></h2>
+                <fieldset disabled>
+                    <form name="contact" method="POST" data-netlify="true">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">お名前:</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">メールアドレス:</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">メッセージ:</label>
+                            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-secondary">送信（無効）</button>
+                    </form>
+                </fieldset>
+                <small class="text-muted">※このフォームは機能しません。実際のお問い合わせは上記GitHubリポジトリまでお願いします。</small>
             </div>
         </div>
     </section>
