@@ -1,3 +1,53 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Material Design-like font */
+}
+
 .jumbotron {
     background-color: #007bff; /* Bootstrap primary color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Material Design shadow */
+}
+
+.card {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Material Design shadow for cards */
+    transition: transform 0.3s ease-in-out; /* Smooth transition on hover */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Lift card on hover */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Bootstrap primary color */
+    border-color: #007bff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Material Design shadow for buttons */
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    border-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Larger shadow on hover */
+}
+
+#scrollToTopBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button at the right side */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #007bff; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Material Design shadow */
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition */
+}
+
+#scrollToTopBtn:hover {
+    background-color: #0056b3; /* Add a darker background on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Larger shadow on hover */
 }
