@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q&A | 情報栄養学</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts (Roboto) -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Google Analytics Tracking Code Placeholder -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_GA_TRACKING_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'YOUR_GA_TRACKING_ID');
+    </script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">情報栄養学</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">トップ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">情報栄養学とは</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="malnutrition.html">情報栄養失調</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="healthy_intake.html">健全な情報摂取のために</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">お問い合わせ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="faq.html">Q&A</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="jumbotron text-center bg-primary text-white py-5">
+        <div class="container">
+            <h1 class="display-4">Q&A</h1>
+            <p class="lead">情報栄養学に関するよくある質問とその回答</p>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <section class="container my-5 fade-in">
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <h2>よくある質問</h2>
+                <div class="accordion" id="faqAccordion">
+                    <!-- FAQ Item 1 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Q1: 情報栄養学とは何ですか？
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                <p>情報栄養学は、人間が情報とどのように相互作用し、その情報が個人の心身の健康、認知機能、社会生活にどのような影響を与えるかを、栄養学のアナロジー（類推）を用いて体系的に研究する学問分野です。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 2 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Q2: なぜ今、情報栄養学が必要なのですか？
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                <p>インターネットやSNSの普及により、私たちは膨大な情報にアクセスできるようになりました。しかし、情報の過多、誤情報の拡散、偏った情報摂取といった問題が顕在化しており、これらが人々の精神的な疲弊や認知機能の低下を引き起こしています。情報栄養学は、これらの現代的な課題に対し、健全な情報生活を送るための科学的なアプローチを提供します。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 3 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Q3: 情報過多はなぜ体に悪いのですか？
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                <p>情報過多は、集中力の低下、精神的疲労とストレス、睡眠の質の低下、判断力の低下など、様々な負の影響をもたらします。脳が膨大な情報を処理しきれず疲弊し、不安やイライラ、無力感といった精神的なストレスが増大する可能性があります。</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- More FAQ items will be added here -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scroll to Top Button -->
+    <a href="#" id="scrollToTopBtn" class="btn btn-primary rounded-circle shadow-lg"><i class="bi bi-arrow-up"></i></a>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 情報栄養学. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
